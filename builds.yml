@@ -21,6 +21,7 @@ public:
 - 'freebsd-12.3-i386'
 - 'freebsd-12.3'
 - 'freebsd-13.0'
+- 'freebsd-13.1'
 - 'opensuse-leap-15.3'
 - 'oracle-6.10-i386'
 - 'oracle-6.10'
@@ -36,6 +37,7 @@ public:
 - 'ubuntu-20.04'
 - 'ubuntu-21.04'
 - 'ubuntu-21.10'
+- 'ubuntu-22.04'
 
 # slug box name: text string from standard box name to match (generally the same)
 slugs:
@@ -57,3 +59,6 @@ slugs:
   'scientific-7': 'scientific-7'
   'springdalelinux-7': 'springdalelinux-7'
   'springdalelinux-8': 'springdalelinux-8'
+
+providers:
+  - virtualbox-iso

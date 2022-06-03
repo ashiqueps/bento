@@ -86,7 +86,7 @@ def clean_array(*args)
 end
 
 def box_name(template)
-  bn = template.split('/')[1].gsub!(/\.json/,'')
+  bn = template.split('/')[2].gsub!(/\.json/,'')
   bn.match(/-x86_64|-amd64/) ? bn.gsub(/-x86_64|-amd64/,'') : bn
 end
 
